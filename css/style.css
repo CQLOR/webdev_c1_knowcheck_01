@@ -48,7 +48,9 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -81,6 +83,25 @@ body {
     justify-content: center;
     align-items: center;
     padding: 12px;
+}
+
+.contact-container {
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.contact-content {
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
 
 .projects-container {
@@ -178,9 +199,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid #666666;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
@@ -259,6 +280,11 @@ section p {
     line-height: 1.5;
 }
 
+.custom-list {
+    font-family: 'Cabin', sans-serif;
+    line-height: 1.5;
+}
+
 
 /* Lists and Navigation
 ========================================================================== */
@@ -287,6 +313,11 @@ footer {
 .aboutme-photo {
     width: 100%;
     max-width: 320px;
+}
+
+.contact-photo {
+    width: 100%;
+    max-width: 250px;
 }
 
 

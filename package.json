@@ -1,0 +1,12 @@
+{
+  "name": "webdev_c1_knowcheck_01",
+  "version": "1.0.0",
+  "description": "Welcome to your first knowledge check for Code Louisville's Web Development Track. Please reveiw the following list of changes and corrections to the following site. The following assesment is `Open Book` meaning you may use the internet, books, and notes to arrive at your answers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
